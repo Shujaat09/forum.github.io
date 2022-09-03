@@ -1,63 +1,12 @@
-
- 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-var firebaseConfig = {
-    apiKey: "AIzaSyDPA2ErRa_cECEixKP5z_fRhcJH-NmQU-A",
-    authDomain: "signuppage-61d08.firebaseapp.com",
-    databaseURL: "https://signuppage-61d08-default-rtdb.firebaseio.com",
-    projectId: "signuppage-61d08",
-    storageBucket: "signuppage-61d08.appspot.com",
-    messagingSenderId: "375117672256",
-    appId: "1:375117672256:web:27facf0382fdfac51cd4a5",
-    measurementId: "G-BE09K4JP2Y"
-  };
+const firebaseConfig = {
+  apiKey: "AIzaSyACCB6QREg1BsmswWWFVqsHP6rkzbHYFPE",
+  authDomain: "signup-64da7.firebaseapp.com",
+  projectId: "signup-64da7",
+  storageBucket: "signup-64da7.appspot.com",
+  messagingSenderId: "865405855116",
+  appId: "1:865405855116:web:7b3258bc52db4d72d362a9",
+  measurementId: "G-BBYSBPPFPG"
+};
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
